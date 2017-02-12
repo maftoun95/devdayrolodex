@@ -1,0 +1,181 @@
+body {
+    background-color: #ededed;
+}
+
+* {
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+    background-color: #222222;
+}
+
+.green {
+    color: #18bc33;
+    font-size: 100%;
+    font-weight: 100;
+    font-family: Sans-serif;
+}
+.headerText {
+    color: #ffffff;
+    font-size: 6vw;
+    font-weight: 100;
+    font-family: Sans-serif;
+    padding: 2%;
+}
+
+.subtext {
+    color: #ffffff;
+    font-size: 90%;
+    font-weight: 100;
+    font-family: Sans-serif;
+    padding-left: 2%;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    border: thin solid #c6c6c6;
+    box-shadow: 2px 2px 5px #aaaaaa;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.picture {
+    height: auto;
+    width: 100%;
+    margin: 1%;
+}
+
+h1 {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 100%;
+    margin-bottom: 0;
+    font-family: Sans-serif;
+}
+
+h2 {
+    margin-top: 1%;
+    font-weight: 100;
+    font-size: 100%;
+    margin-bottom: 0;
+    color: #18bc33;
+    font-family: Sans-serif;
+}
+li {
+    margin-top: 1%;
+    font-weight: 100;
+    font-size: 85%;
+    margin-bottom: 0;
+    color: #000000;
+    font-family: Sans-serif;
+}
+p {
+    font-weight: 100;
+    font-size: 85%;
+    color: #000000;
+    font-family: Sans-serif;
+    margin-left: 5%;
+}
+.number {
+    border: thin solid #dddddd;
+    border-radius: 5px;
+    margin-top: 8%;
+    padding: 5%;
+    height: 100%;
+}
+
+.tickerNumber {
+    font-weight: 100;
+    font-size: 160%;
+    color: #18bc33;
+    font-family: Sans-serif;
+    text-align: center;
+}
+
+.tickerText {
+    font-weight: 100;
+    font-size: 55%;
+    color: #000000;
+    font-family: Sans-serif;
+    text-align: center;
+}
+
+ul {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.age {
+    color: #aaaaaa;
+}
+
+.margin {
+    padding: 0 2% 2%;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    padding: 2%;
+    font-size: 80%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: none;
+    border: thin solid #18bc33;
+}
+
+button:active, button:hover, button:visited, button:checked {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.stack-2 {
+    width: 33.33%;
+}
+
+[class*="stack-"] {
+    float: left;
+    padding: 8px;
+}
+
+@media only screen and (max-width: 1020px) {
+    /* For mobile phones: */
+    [class*="stack-"] {
+        width: 100%;
+    }
+}
