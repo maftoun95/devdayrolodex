@@ -30,7 +30,7 @@ var devdata = [
     {
         "Name": "Saman Maftoun",
         "Age": "28",
-        "Picture": "./images/saman.JPG",
+        "Picture": "./images/saman.jpg",
         "Website": "WEBSITE_URL",
         "LinkedIn": "https://www.linkedin.com/in/saman-maftoun-a43b51132/",
         "Codepen": "YOUR_CODEPEN_URL",
