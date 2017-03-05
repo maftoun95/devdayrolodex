@@ -42,6 +42,20 @@ var devdata = [
         "Bio": "I am a tinkerer with the mindset of a persistent student. Always eager to play with new technology && software, I\'ve made myself comfortable with picking up and toying with new languages/hardware frequently. I\'m very enthusiastic about web/software development and I\'m very happy to know that over a year since begining to learn programming, that enthusiasm hasn\'t waned. On the side I go rock climbing, play Street Fighter, and support Arsenal FC."
     },
     {
+        "Name": "Julie Li",
+        "Age": "29",
+        "Picture": "https://avatars3.githubusercontent.com/u/1977794?v=3&u=fe2e4fc14bccf5f0f3ebb14ccb81e17a98a6e962&s=400",
+        "Website": "www.julielidesign.com",
+        "LinkedIn": "https://www.linkedin.com/in/zhuyingli",
+        "Codepen": "https://codepen.io/juliezli/",
+        "Github": "https://github.com/juliezli",
+        "Occupation": "UX Designer",
+        "DevDay": "1",
+        "Languages": ["HTML", "CSS", "JavaScript"],
+        "Frameworks": ["React"],
+        "Bio": "I create user experience"
+    },
+    {
         "Name": "Collin Kee",
         "Age": "39",
         "Picture": "./images/transformer.jpeg",
@@ -50,7 +64,7 @@ var devdata = [
         "Codepen": "YOUR_CODEPEN_URL",
         "Github": "YOUR_GITHUB_URL",
         "Occupation": "House Spouse/Web Dev",
-        "DevDay": "1",
+        "DevDay": "4",
         "Languages": ["HTML","CSS"],
         "Frameworks": ["bootstrap"],
         "Bio": "10 + years retail management currently making a career change."
@@ -64,15 +78,57 @@ var devdata = [
         "Codepen": "https://codepen.io/kennon317/",
         "Github": "https://github.com/kennh",
         "Occupation": "web developer",
-        "DevDay": "25",
+        "DevDay": "26",
         "Languages": ["python", "c#", "javascript", "node.js"],
         "Frameworks": ["django", "flask", "meteor", "asp.net", "core"],
         "Bio": "I have a mulitple degrees in Exercise Science. I love learning and nature.  I have been working on web development for just over a year.  I am currently attending Coding Dojo to further my web devolopment skills."
+    },
+    {
+        "Name": "Davis Philip Charles Herbig",
+        "Age": "27",
+        "Picture": "./images/davis.jpg",
+        "Website": "www.badgemagic.com",
+        "LinkedIn": "https://www.linkedin.com/in/davis-herbig",
+        "Codepen": "",
+        "Github": "https://github.com/dherbig",
+        "Occupation": "Full Stack and VR Engineer",
+        "DevDay": "5",
+        "Languages": ["HTML-5, CSS, JavaScript, Python, C#, German"],
+        "Frameworks": ["Flask, Django, jQuery, Bootstrap, .NET Core"],
+        "Bio": "Ad-hoc educator and algorithm aficionado, full of good will toward men, and free of bravado."
+    },
+    {
+        "Name": "Dan Wiegand",
+        "Age": "23",
+        "Picture": "./images/dan.jpeg",
+        "Website": "stopitdan.github.io",
+        "LinkedIn": "https://www.linkedin.com/in/stopitdan",
+        "Codepen": "YOUR_CODEPEN_URL",
+        "Github": "https://github.com/stopitdan",
+        "Occupation": "Front-End Developer / iOS Engineer",
+        "DevDay": "3",
+        "Languages": ["Swift", "HTML5", "CSS3", "Python", "C#"],
+        "Frameworks": ["Cocoa Pods", "Django", "ASP.NET"],
+        "Bio": "I very recently started coding and fell in love! After finishing up learning as much as I could at The Coding Dojo in Bellevue, I'm now in the midst of the job search. Learn something new every day, that's the goal!"
+    },
+    {
+        "Name": "Martha Semugera",
+        "Age" : "32",
+        "Picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAArRAAAAJDczNTlhOTgxLWY0ZmQtNDdkYi1hZTlhLTJkMTQ3ZjI1M2E5OQ.jpg",
+        "Website": "WEBSITE_URL",
+        "LinkedIn": "https://www.linkedin.com/in/marthasemugera",
+        "Codepen": "https://codepen.io/marthans/",
+        "Github": "",
+        "Occupation": "UX/UI Designer",
+        "DevDay": "7",
+        "Languages": ["HTML, CSS"],
+        "Frameworks": ["Bootstraps"],
+        "Bio": "Martha received her BA in Film & Video Studies and a Minor in Critical Studies from Central Washington University. She continues her education everyday through the use of Lynda.com and Freecodecamp.com."
     }
 ];
 
 // This is our IIFE immediately invoked function expression, it's a common pattern to modularize your code, create private contexts, and runs immediately.
-(function() {
+(function createDev() {
 
     // Target the element in html that has class original-clone, e.g., this element contains an entire html layout for each dev's info card.
     var blueprint = document.querySelector('.original-clone');
